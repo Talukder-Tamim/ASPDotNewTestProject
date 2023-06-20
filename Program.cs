@@ -34,7 +34,7 @@ int successCount = db.SaveChanges();
 
 if (successCount > 0)
 {
-    Console.WriteLine("Total number of affected row:"+ successCount + "");
+    Console.WriteLine("Total number of affected row..:"+ successCount + "");
 }
 else
 {
